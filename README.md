@@ -1,1 +1,1 @@
-# Social Photo Enhancer - Enhance Facebook Photos using Adobe Creative SDK
+# iOS App to enhance Facebook photos using Adobe Creative SDK
