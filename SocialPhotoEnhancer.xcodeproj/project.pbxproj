@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4583BDF225E5031200E4534E /* album_photo_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4583BDF125E5031200E4534E /* album_photo_placeholder.png */; };
+		892B5AF41A96E52700383A03 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 892B5AF31A96E52700383A03 /* PhotoTableViewCell.m */; };
+		892B5B291A96F85400383A03 /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 892B5B281A96F85400383A03 /* ImageHelper.m */; };
+		892B5B2C1A96F9CC00383A03 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892B5B2B1A96F9CC00383A03 /* DetailViewController.m */; };
+		892B5B2F1A97038E00383A03 /* UXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 892B5B2E1A97038E00383A03 /* UXHelper.m */; };
+		89E78E481A97EB5D0091A4A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E471A97EB5D0091A4A9 /* UIKit.framework */; };
+		89E78E4A1A97EB650091A4A9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E491A97EB650091A4A9 /* StoreKit.framework */; };
+		89E78E4C1A97EB6E0091A4A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E4B1A97EB6E0091A4A9 /* QuartzCore.framework */; };
+		89E78E4E1A97EB810091A4A9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E4D1A97EB810091A4A9 /* OpenGLES.framework */; };
+		89E78E501A97EB880091A4A9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E4F1A97EB880091A4A9 /* MessageUI.framework */; };
+		89E78E521A97EB910091A4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E511A97EB910091A4A9 /* Foundation.framework */; };
+		89E78E541A97EB990091A4A9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E531A97EB990091A4A9 /* libz.1.2.5.dylib */; };
+		89E78E561A97EBA30091A4A9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E551A97EBA30091A4A9 /* libsqlite3.0.dylib */; };
+		89E78E581A97EBAB0091A4A9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E571A97EBAB0091A4A9 /* CoreData.framework */; };
+		89E78E5A1A97EBB40091A4A9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E591A97EBB40091A4A9 /* Accelerate.framework */; };
+		89E78E5C1A97EBC40091A4A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E5B1A97EBC40091A4A9 /* MobileCoreServices.framework */; };
+		89E78E5E1A97EBCB0091A4A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E5D1A97EBCB0091A4A9 /* SystemConfiguration.framework */; };
+		89E78E601A97EBDB0091A4A9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E5F1A97EBDB0091A4A9 /* libc++.dylib */; };
+		89E78E621A97EBFA0091A4A9 /* AdobeCreativeSDKFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E611A97EBFA0091A4A9 /* AdobeCreativeSDKFoundation.framework */; };
+		89E78E641A97EC060091A4A9 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E78E631A97EC060091A4A9 /* AdobeCreativeSDKImage.framework */; };
+		89E78E671A97EC350091A4A9 /* AdobeCreativeSDKFoundationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89E78E661A97EC350091A4A9 /* AdobeCreativeSDKFoundationResources.bundle */; };
+		89E78E691A97EC540091A4A9 /* AdobeCreativeSDKImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89E78E681A97EC540091A4A9 /* AdobeCreativeSDKImageResources.bundle */; };
+		89E96C021A7A3994007D88C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E96C011A7A3994007D88C5 /* main.m */; };
+		89E96C051A7A3994007D88C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E96C041A7A3994007D88C5 /* AppDelegate.m */; };
+		89E96C081A7A3994007D88C5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E96C071A7A3994007D88C5 /* MasterViewController.m */; };
+		89E96C0B1A7A3994007D88C5 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E96C0A1A7A3994007D88C5 /* PhotosViewController.m */; };
+		89E96C101A7A3995007D88C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E96C0F1A7A3995007D88C5 /* Images.xcassets */; };
+		89E96C131A7A3995007D88C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E96C111A7A3995007D88C5 /* LaunchScreen.xib */; };
+		89E96C2C1A7A39F3007D88C5 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E96C2B1A7A39F3007D88C5 /* FacebookSDK.framework */; };
+		89E96C331A7A4DDA007D88C5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E96C311A7A4DDA007D88C5 /* LoginViewController.m */; };
+		89E96C341A7A4DDA007D88C5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E96C321A7A4DDA007D88C5 /* LoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89E96C191A7A3995007D88C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E96BF41A7A3994007D88C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E96BFB1A7A3994007D88C5;
+			remoteInfo = SocialPhotoEnhancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4583BDF125E5031200E4534E /* album_photo_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = album_photo_placeholder.png; path = assets/album_photo_placeholder.png; sourceTree = "<group>"; };
+		892B5AF21A96E52700383A03 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		892B5AF31A96E52700383A03 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		892B5B271A96F85400383A03 /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		892B5B281A96F85400383A03 /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		892B5B2A1A96F9CC00383A03 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		892B5B2B1A96F9CC00383A03 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		892B5B2D1A97038E00383A03 /* UXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXHelper.h; sourceTree = "<group>"; };
+		892B5B2E1A97038E00383A03 /* UXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXHelper.m; sourceTree = "<group>"; };
+		89E78E471A97EB5D0091A4A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89E78E491A97EB650091A4A9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		89E78E4B1A97EB6E0091A4A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89E78E4D1A97EB810091A4A9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		89E78E4F1A97EB880091A4A9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		89E78E511A97EB910091A4A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89E78E531A97EB990091A4A9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		89E78E551A97EBA30091A4A9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		89E78E571A97EBAB0091A4A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		89E78E591A97EBB40091A4A9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		89E78E5B1A97EBC40091A4A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		89E78E5D1A97EBCB0091A4A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89E78E5F1A97EBDB0091A4A9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		89E78E611A97EBFA0091A4A9 /* AdobeCreativeSDKFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKFoundation.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKFoundation.framework; sourceTree = "<group>"; };
+		89E78E631A97EC060091A4A9 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKImage.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		89E78E661A97EC350091A4A9 /* AdobeCreativeSDKFoundationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKFoundationResources.bundle; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKFoundation.framework/Versions/A/Resources/AdobeCreativeSDKFoundationResources.bundle; sourceTree = "<group>"; };
+		89E78E681A97EC540091A4A9 /* AdobeCreativeSDKImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKImageResources.bundle; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKImage.framework/Versions/A/Resources/AdobeCreativeSDKImageResources.bundle; sourceTree = "<group>"; };
+		89E96BFC1A7A3994007D88C5 /* SocialPhotoEnhancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPhotoEnhancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E96C001A7A3994007D88C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E96C011A7A3994007D88C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E96C031A7A3994007D88C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E96C041A7A3994007D88C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E96C061A7A3994007D88C5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		89E96C071A7A3994007D88C5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		89E96C091A7A3994007D88C5 /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		89E96C0A1A7A3994007D88C5 /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		89E96C0F1A7A3995007D88C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89E96C121A7A3995007D88C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		89E96C181A7A3995007D88C5 /* SocialPhotoEnhancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPhotoEnhancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E96C2B1A7A39F3007D88C5 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		89E96C301A7A4DDA007D88C5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		89E96C311A7A4DDA007D88C5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		89E96C321A7A4DDA007D88C5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E96BF91A7A3994007D88C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E78E641A97EC060091A4A9 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				89E78E621A97EBFA0091A4A9 /* AdobeCreativeSDKFoundation.framework in Frameworks */,
+				89E78E601A97EBDB0091A4A9 /* libc++.dylib in Frameworks */,
+				89E78E5E1A97EBCB0091A4A9 /* SystemConfiguration.framework in Frameworks */,
+				89E78E5C1A97EBC40091A4A9 /* MobileCoreServices.framework in Frameworks */,
+				89E78E5A1A97EBB40091A4A9 /* Accelerate.framework in Frameworks */,
+				89E78E581A97EBAB0091A4A9 /* CoreData.framework in Frameworks */,
+				89E78E561A97EBA30091A4A9 /* libsqlite3.0.dylib in Frameworks */,
+				89E78E541A97EB990091A4A9 /* libz.1.2.5.dylib in Frameworks */,
+				89E78E521A97EB910091A4A9 /* Foundation.framework in Frameworks */,
+				89E78E501A97EB880091A4A9 /* MessageUI.framework in Frameworks */,
+				89E78E4E1A97EB810091A4A9 /* OpenGLES.framework in Frameworks */,
+				89E78E4C1A97EB6E0091A4A9 /* QuartzCore.framework in Frameworks */,
+				89E78E4A1A97EB650091A4A9 /* StoreKit.framework in Frameworks */,
+				89E78E481A97EB5D0091A4A9 /* UIKit.framework in Frameworks */,
+				89E96C2C1A7A39F3007D88C5 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E96C151A7A3995007D88C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E78E651A97EC0C0091A4A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89E78E681A97EC540091A4A9 /* AdobeCreativeSDKImageResources.bundle */,
+				89E78E661A97EC350091A4A9 /* AdobeCreativeSDKFoundationResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89E96BF31A7A3994007D88C5 = {
+			isa = PBXGroup;
+			children = (
+				89E96BFE1A7A3994007D88C5 /* src */,
+				89E78E651A97EC0C0091A4A9 /* Resources */,
+				89E96C371A7A6B75007D88C5 /* Assets */,
+				89E96C281A7A39C9007D88C5 /* Frameworks */,
+				89E96BFD1A7A3994007D88C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E96BFD1A7A3994007D88C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E96BFC1A7A3994007D88C5 /* SocialPhotoEnhancer.app */,
+				89E96C181A7A3995007D88C5 /* SocialPhotoEnhancerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E96BFE1A7A3994007D88C5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				89E96C031A7A3994007D88C5 /* AppDelegate.h */,
+				89E96C041A7A3994007D88C5 /* AppDelegate.m */,
+				89E96C301A7A4DDA007D88C5 /* LoginViewController.h */,
+				89E96C311A7A4DDA007D88C5 /* LoginViewController.m */,
+				89E96C061A7A3994007D88C5 /* MasterViewController.h */,
+				89E96C071A7A3994007D88C5 /* MasterViewController.m */,
+				89E96C091A7A3994007D88C5 /* PhotosViewController.h */,
+				89E96C0A1A7A3994007D88C5 /* PhotosViewController.m */,
+				892B5B2A1A96F9CC00383A03 /* DetailViewController.h */,
+				892B5B2B1A96F9CC00383A03 /* DetailViewController.m */,
+				892B5AF21A96E52700383A03 /* PhotoTableViewCell.h */,
+				892B5AF31A96E52700383A03 /* PhotoTableViewCell.m */,
+				892B5B271A96F85400383A03 /* ImageHelper.h */,
+				892B5B281A96F85400383A03 /* ImageHelper.m */,
+				892B5B2D1A97038E00383A03 /* UXHelper.h */,
+				892B5B2E1A97038E00383A03 /* UXHelper.m */,
+				89E96C0F1A7A3995007D88C5 /* Images.xcassets */,
+				89E96C111A7A3995007D88C5 /* LaunchScreen.xib */,
+				89E96C321A7A4DDA007D88C5 /* LoginViewController.xib */,
+				89E96BFF1A7A3994007D88C5 /* Supporting Files */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		89E96BFF1A7A3994007D88C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89E96C001A7A3994007D88C5 /* Info.plist */,
+				89E96C011A7A3994007D88C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E96C281A7A39C9007D88C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E78E631A97EC060091A4A9 /* AdobeCreativeSDKImage.framework */,
+				89E78E611A97EBFA0091A4A9 /* AdobeCreativeSDKFoundation.framework */,
+				89E78E5F1A97EBDB0091A4A9 /* libc++.dylib */,
+				89E78E5D1A97EBCB0091A4A9 /* SystemConfiguration.framework */,
+				89E78E5B1A97EBC40091A4A9 /* MobileCoreServices.framework */,
+				89E78E591A97EBB40091A4A9 /* Accelerate.framework */,
+				89E78E571A97EBAB0091A4A9 /* CoreData.framework */,
+				89E78E551A97EBA30091A4A9 /* libsqlite3.0.dylib */,
+				89E78E531A97EB990091A4A9 /* libz.1.2.5.dylib */,
+				89E78E511A97EB910091A4A9 /* Foundation.framework */,
+				89E78E4F1A97EB880091A4A9 /* MessageUI.framework */,
+				89E78E4D1A97EB810091A4A9 /* OpenGLES.framework */,
+				89E78E4B1A97EB6E0091A4A9 /* QuartzCore.framework */,
+				89E78E491A97EB650091A4A9 /* StoreKit.framework */,
+				89E78E471A97EB5D0091A4A9 /* UIKit.framework */,
+				89E96C2B1A7A39F3007D88C5 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89E96C371A7A6B75007D88C5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4583BDF125E5031200E4534E /* album_photo_placeholder.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E96BFB1A7A3994007D88C5 /* SocialPhotoEnhancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E96C221A7A3995007D88C5 /* Build configuration list for PBXNativeTarget "SocialPhotoEnhancer" */;
+			buildPhases = (
+				89E96BF81A7A3994007D88C5 /* Sources */,
+				89E96BF91A7A3994007D88C5 /* Frameworks */,
+				89E96BFA1A7A3994007D88C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialPhotoEnhancer;
+			productName = SocialPhotoEnhancer;
+			productReference = 89E96BFC1A7A3994007D88C5 /* SocialPhotoEnhancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89E96C171A7A3995007D88C5 /* SocialPhotoEnhancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E96C251A7A3995007D88C5 /* Build configuration list for PBXNativeTarget "SocialPhotoEnhancerTests" */;
+			buildPhases = (
+				89E96C141A7A3995007D88C5 /* Sources */,
+				89E96C151A7A3995007D88C5 /* Frameworks */,
+				89E96C161A7A3995007D88C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E96C1A1A7A3995007D88C5 /* PBXTargetDependency */,
+			);
+			name = SocialPhotoEnhancerTests;
+			productName = SocialPhotoEnhancerTests;
+			productReference = 89E96C181A7A3995007D88C5 /* SocialPhotoEnhancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E96BF41A7A3994007D88C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Anass Bouassaba";
+				TargetAttributes = {
+					89E96BFB1A7A3994007D88C5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					89E96C171A7A3995007D88C5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 89E96BFB1A7A3994007D88C5;
+					};
+				};
+			};
+			buildConfigurationList = 89E96BF71A7A3994007D88C5 /* Build configuration list for PBXProject "SocialPhotoEnhancer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 89E96BF31A7A3994007D88C5;
+			productRefGroup = 89E96BFD1A7A3994007D88C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E96BFB1A7A3994007D88C5 /* SocialPhotoEnhancer */,
+				89E96C171A7A3995007D88C5 /* SocialPhotoEnhancerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E96BFA1A7A3994007D88C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E78E691A97EC540091A4A9 /* AdobeCreativeSDKImageResources.bundle in Resources */,
+				89E78E671A97EC350091A4A9 /* AdobeCreativeSDKFoundationResources.bundle in Resources */,
+				89E96C131A7A3995007D88C5 /* LaunchScreen.xib in Resources */,
+				89E96C101A7A3995007D88C5 /* Images.xcassets in Resources */,
+				4583BDF225E5031200E4534E /* album_photo_placeholder.png in Resources */,
+				89E96C341A7A4DDA007D88C5 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E96C161A7A3995007D88C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E96BF81A7A3994007D88C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E96C051A7A3994007D88C5 /* AppDelegate.m in Sources */,
+				89E96C081A7A3994007D88C5 /* MasterViewController.m in Sources */,
+				892B5AF41A96E52700383A03 /* PhotoTableViewCell.m in Sources */,
+				892B5B2F1A97038E00383A03 /* UXHelper.m in Sources */,
+				892B5B2C1A96F9CC00383A03 /* DetailViewController.m in Sources */,
+				89E96C021A7A3994007D88C5 /* main.m in Sources */,
+				892B5B291A96F85400383A03 /* ImageHelper.m in Sources */,
+				89E96C0B1A7A3994007D88C5 /* PhotosViewController.m in Sources */,
+				89E96C331A7A4DDA007D88C5 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E96C141A7A3995007D88C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89E96C1A1A7A3995007D88C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E96BFB1A7A3994007D88C5 /* SocialPhotoEnhancer */;
+			targetProxy = 89E96C191A7A3995007D88C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89E96C111A7A3995007D88C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E96C121A7A3995007D88C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E96C201A7A3995007D88C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E96C211A7A3995007D88C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E96C231A7A3995007D88C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = SocialPhotoEnhancer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89E96C241A7A3995007D88C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = SocialPhotoEnhancer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89E96C261A7A3995007D88C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialPhotoEnhancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotoEnhancer.app/SocialPhotoEnhancer";
+			};
+			name = Debug;
+		};
+		89E96C271A7A3995007D88C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SocialPhotoEnhancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotoEnhancer.app/SocialPhotoEnhancer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E96BF71A7A3994007D88C5 /* Build configuration list for PBXProject "SocialPhotoEnhancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E96C201A7A3995007D88C5 /* Debug */,
+				89E96C211A7A3995007D88C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E96C221A7A3995007D88C5 /* Build configuration list for PBXNativeTarget "SocialPhotoEnhancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E96C231A7A3995007D88C5 /* Debug */,
+				89E96C241A7A3995007D88C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E96C251A7A3995007D88C5 /* Build configuration list for PBXNativeTarget "SocialPhotoEnhancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E96C261A7A3995007D88C5 /* Debug */,
+				89E96C271A7A3995007D88C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E96BF41A7A3994007D88C5 /* Project object */;
+}
